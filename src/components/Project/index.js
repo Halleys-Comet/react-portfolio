@@ -1,30 +1,20 @@
+
 // import React from 'react';
 
-// function Project() {
-//     const { name, image, repositoryLink, deployedLink } = props;
-
+// const images = [mealPlan, cocktail, password, blog, weather, planner];
+// function Project(props) {
+//     const imageSpot = props.id;
 //     return (
 //         <div className="card">
-//             <div className="image-container">
-//                 <img alt={name} src={image} />
-//             </div>
-//             <div className="content">
-//                 <h3 className="project-name">{name}</h3>
-//                 <div className="link-container">
-//                     <div className="project-link">
-//                         <a href={deployedLink} target="_blank" rel="noreferrer">
-//                             deployed
-//                         </a>
-//                     </div>
-//                     <div className="project-link">
-//                         <a href={repositoryLink} target="_blank" rel="noreferrer">
-//                             repository
-//                         </a>
-//                     </div>
-//                 </div>
+//             <div className="img-container">
+//                 <h2>{props.name}</h2>
+//                 <a href={props.appLink}>
+//                     <img src={images[imageSpot]} alt={props.name} />
+//                 </a>
+//                 <a href={props.github}></a>
 //             </div>
 //         </div>
-//     );
+//     )
 // }
 
 // export default Project;
